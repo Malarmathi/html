@@ -1,0 +1,52 @@
+
+.Container ul{
+	list-style: none;
+	
+}
+.Container ul li{
+	background-color: green;
+	width:150px;
+	border: 1px solid white;
+	height: 50px;
+	text-align: center;
+	margin-left: 100px;
+	float: right;
+	line-height: 50px;
+	color: white;
+}
+.Container ul li:hover {
+	background-color: blue;
+}
+.Container ul ul
+{
+	display: none;
+}
+.Container ul li:hover >ul{
+	display: block;
+}
+.A,.Container{
+	display: inline-block;
+
+}
+.A{
+	font-size:30px;
+	width: 150px;
+height: 50px;
+	
+}
+.About li{
+
+	display:inline;
+	list-style: none;
+	padding-right: 200px;
+	font-size: 20px;
+	
+}
+.About a{
+	text-decoration: none;
+}
+.About a:hover{
+text-decoration: underline;
+color: green;
+font-size: 25px;
+}

@@ -1,0 +1,23 @@
+#first{
+background-color:green;
+margin:auto;
+width:500px;
+overflow:hidden;
+}
+.second{
+background-color:red;
+float:left;
+width:400px;height:500px;
+
+}
+aside{
+background-color:brown;
+height:500px;
+float:left;
+width:100px;
+
+}
+aside ul{
+list-style:none;
+padding-left:0;
+}
