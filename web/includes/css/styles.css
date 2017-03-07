@@ -1,24 +1,3 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
 
 #bigCallout{
    font-family: Cookie;
@@ -59,23 +38,20 @@ ul .unstyled{
    padding: 10px; 
 
 }
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
    #searchInput{
       width:200px;
    }
    #kk1
    {
-      margin-top: 13px;
+      margin-top: 19px;
    }
    #kk2
    {
-      margin-top: 24px;
+      margin-top: 30px;
    }
    #kk3
    {
-      margin-top: 13px;
+      margin-top: 19px;
    }
    #successAlert{
       display:none;
@@ -84,10 +60,7 @@ ul .unstyled{
       background-image: url("http://wallpapercave.com/wp/zwCETTo.jpg");
    }
    
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-   #myCarousel{
+ #myCarousel{
       margin-top: 100px;
 
 
@@ -118,20 +91,32 @@ ul .unstyled{
 
 
 
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-/* Landscape phone to portrait tablet */
+#myCarousel .item{
+   height:200px;
+
+}
+#slide1 {
+   background: url('../../images/school13.jpg') top center no-repeat;
+
+}
+#slide2 {
+   background: url('../../images/library1.jpg') top center no-repeat;
+}
+#slide3 {
+   background: url('../../images/library12.jpg') top center no-repeat;
+}
+ .carousel-caption
+{
+         font-size: 10px;
+}
+.carousel-caption h4
+{
+         font-size: 20px;
+
+}
+}
 @media (max-width: 768px) {
 	
   
@@ -159,7 +144,7 @@ ul .unstyled{
 
 }
 }
-/* Large desktop */
+
 @media (min-width: 1200px) {
 	#myCarousel .item{
    height:500px;
